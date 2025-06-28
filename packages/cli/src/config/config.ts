@@ -16,6 +16,7 @@ import {
   GEMINI_CONFIG_DIR as GEMINI_DIR,
   DEFAULT_GEMINI_MODEL,
   DEFAULT_GEMINI_EMBEDDING_MODEL,
+  SUPPORTED_MODELS,
   FileDiscoveryService,
   TelemetryTarget,
 } from '@google/gemini-cli-core';
@@ -61,6 +62,7 @@ async function parseArguments(): Promise<CliArgs> {
       alias: 'm',
       type: 'string',
       description: `Model`,
+      choices: SUPPORTED_MODELS,
       default: process.env.GEMINI_MODEL || DEFAULT_GEMINI_MODEL,
     })
     .option('prompt', {

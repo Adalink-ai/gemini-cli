@@ -33,6 +33,7 @@ export function AuthDialog({
       label: 'Login with Google',
       value: AuthType.LOGIN_WITH_GOOGLE_PERSONAL,
     },
+    { label: 'Login with Azure AD', value: AuthType.LOGIN_WITH_AZURE_AD },
     { label: 'Gemini API Key (AI Studio)', value: AuthType.USE_GEMINI },
     { label: 'Vertex AI', value: AuthType.USE_VERTEX_AI },
   ];
@@ -93,7 +94,7 @@ export function AuthDialog({
         <Text color={Colors.Gray}>(Use Enter to select)</Text>
       </Box>
       <Box marginTop={1}>
-        <Text>Terms of Services and Privacy Notice for Gemini CLI</Text>
+        <Text>Terms of Services and Privacy Notice for Koder CLI</Text>
       </Box>
       <Box marginTop={1}>
         <Text color={Colors.AccentBlue}>
