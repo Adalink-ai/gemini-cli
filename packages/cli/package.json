@@ -2,7 +2,7 @@
   "name": "@google/gemini-cli",
   "version": "0.1.8",
   "description": "Gemini CLI",
-  "repository": "google-gemini/gemini-cli",
+  "repository": "Adalink-ai/koder-cli",
   "type": "module",
   "main": "dist/index.js",
   "bin": {
