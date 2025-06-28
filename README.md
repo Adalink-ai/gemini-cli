@@ -1,6 +1,6 @@
 # Koder CLI
 
-[![Koder CLI CI](https://github.com/google-gemini/gemini-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/google-gemini/gemini-cli/actions/workflows/ci.yml)
+[![Koder CLI CI](https://github.com/Adalink-ai/koder-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/Adalink-ai/koder-cli/actions/workflows/ci.yml)
 
 ![Koder CLI Screenshot](./docs/assets/gemini-screenshot.png)
 
@@ -23,7 +23,7 @@ With the Koder CLI you can:
 2. **Run the CLI:** Execute the following command in your terminal:
 
    ```bash
-   npx https://github.com/google-gemini/gemini-cli
+   npx https://github.com/Adalink-ai/koder-cli
    ```
 
    Or install it with:
@@ -66,7 +66,7 @@ gemini
 Or work with an existing project:
 
 ```sh
-git clone https://github.com/google-gemini/gemini-cli
+git clone https://github.com/Adalink-ai/koder-cli
 cd gemini-cli
 gemini
 > Give me a summary of all of the changes that went in yesterday
